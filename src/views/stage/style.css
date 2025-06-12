@@ -1,0 +1,118 @@
+.container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+/* 左边栏 */
+.sidebar {
+  width: 16.66%;
+  background-color: #111;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+  z-index: 1;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.social {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* 中间图片部分 */
+.image-wrapper {
+  width: 1000px;  /* 增大宽度 */
+  height: auto;
+  position: relative;
+  z-index: 3;
+}
+.image-section {
+  position: absolute;
+  left: -200px; /* 让图片向左覆盖 sidebar */
+  top: 50%;
+  transform: translateY(-50%);
+  width: calc(100% + 40px); /* 扩大一点确保显示完整 */
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* 右边内容 */
+.content {
+  width: 50%;
+  display: flex;
+  align-items: center;  /* 垂直居中 */
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  font-size: 14px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.main .category {
+  font-size: 12px;
+  color: #aaa;
+  letter-spacing: 1px;
+}
+
+.main h1 {
+  font-size: 48px;
+  margin: 10px 0 20px;
+}
+
+.main .desc {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.details-btn {
+  padding: 10px 20px;
+  border: 1px solid black;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.details-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.share-icon {
+  font-size: 18px;
+  cursor: pointer;
+}

@@ -1,0 +1,44 @@
+{
+  "id": "4943881",
+  "name": "wukong",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4878741",
+      "name": "词云",
+      "font_class": "ciyun",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "7843359",
+      "name": "悟空问答",
+      "font_class": "wukong",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "8643507",
+      "name": "词云",
+      "font_class": "ciyun1",
+      "unicode": "ea68",
+      "unicode_decimal": 60008
+    },
+    {
+      "icon_id": "10906710",
+      "name": "悟空-头像",
+      "font_class": "wukong-touxiang",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "43118604",
+      "name": "悟空wukong黑神话悟空-copy",
+      "font_class": "a-ziyuan1",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    }
+  ]
+}
